@@ -1,0 +1,36 @@
+```gitignore
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb~
+
+# Dados
+dados/*.csv
+dados/*.data
+!dados/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ambiente virtual
+venv/
+env/
+.env
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
